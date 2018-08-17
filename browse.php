@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<body>
-    
-
-    
-</body>
-</html>
+<?php
+include_once('template/header.php');
+?>
