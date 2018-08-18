@@ -2,12 +2,17 @@
 
 #header{
     background: gray;
-    width : 100%;
+    /* width : 100%; */
     margin-top: 0;
     padding-top: 28px;
+    padding-bottom: 25px;
+    margin-left: 79px;
+    margin-right: 79px;
+
 }
 
 body {
     background-color: lightblue;
     margin:0;
+    width: 100%;
 }
