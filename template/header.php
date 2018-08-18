@@ -34,10 +34,10 @@
          <div class="vl"></div>
          <div class="pageNavHolder">
             <ul>
-               <li><a href="#test1 active">Test Menu 1</a></li>
-               <li><a href="#test2">Test Menu 2</a></li>
-               <li><a href="#test3">Test Menu 3</a></li>
-               <li><a href="#test4">Test Menu 4</a></li>
+               <li><a href="#test1" class = "menu_selection active">Test Menu 1</a></li>
+               <li><a href="#test2" class = "menu_selection">Test Menu 2</a></li>
+               <li><a href="#test3" class = "menu_selection">Test Menu 3</a></li>
+               <li><a href="#test4" class = "menu_selection">Test Menu 4</a></li>
             </ul>
          </div>
           
@@ -46,3 +46,12 @@
    </div>
 </body>
 </html>
+
+<script>
+$(document).ready(function (){
+    $('.pageNavHolder').on('click', 'li', function(){
+        $('.pageNavHolder li.active').removeClass("active");
+        $(this).addClass('active');
+    });
+});
+</script>
