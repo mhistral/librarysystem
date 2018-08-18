@@ -17,18 +17,15 @@
 <body>
    <div id='header'>
       <div id= "food_icon">
-         <!-- <a href="https://icons8.com">Icon pack by Icons8</a> -->
-         <img src="https://png.icons8.com/ios/50/000000/dining-room.png" style="width: 32px; height: 32px;">
-            <div class="dropdown">
-               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Dropdown button
-               </button>
-               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-               <a class="dropdown-item" href="#">Action</a>
-               <a class="dropdown-item" href="#">Another action</a>
-               <a class="dropdown-item" href="#">Something else here</a>
-               </div>
-            </div>
+         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <!-- <a href="https://icons8.com">Icon pack by Icons8</a> -->
+            <img src="https://png.icons8.com/ios/50/000000/dining-room.png" style="width: 32px; height: 32px;">
+         </button>
+         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+         </div>
          <div class="header-divider"></div>
       </div>
    </div>
