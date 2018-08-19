@@ -114,3 +114,11 @@ body {
 /* .navbar-nav .dropdown-menu {
     position: static !important;
 } */
+
+@media screen and (max-width: 992px){
+    #header .dropdown-menu{
+        position: absolute;
+        right: 0;
+        left: auto;
+    }
+}
