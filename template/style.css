@@ -22,11 +22,11 @@ body {
 .vl {
     display: inline-block;
     vertical-align: top;
-    width: 1px;
+    /* width: 1px; */
     background: none;
-    height: 30px;
+    /* height: 30px; */
     margin: 0 10px 0 20px;
-    padding: 0;
+    padding-right: 20px;
     border-right: 2px solid rgba(255,255,255,0.15);
 }
 
@@ -94,3 +94,23 @@ body {
     z-index:-1;
     display:block;
 }
+
+.navbar{
+    background: transparent !important;
+    padding: 0px !important;
+    font-size: 12px;
+    margin: auto;
+}
+
+.menu-selection{
+    line-height: 25px !important;
+    padding-left: 20px !important;
+    color: white !important;
+}
+
+/* .navbar-toggler{
+    float: left !important;
+} */
+/* .navbar-nav .dropdown-menu {
+    position: static !important;
+} */
